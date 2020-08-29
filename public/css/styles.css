@@ -6,6 +6,7 @@ body{
     background-image:url("../images/foggy-1149180_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .navbar {
     padding-top: 15px;
@@ -70,3 +71,49 @@ img {
 .nameNav{
     padding-right: 60%;
 }
+@media only screen and (max-width: 1600px) {
+a:link{
+    color:white;
+}
+    .hide{
+        padding-bottom: 200px;
+    }
+      .mobileFoot{
+
+          position: absolute;
+          margin-bottom: 0%;
+      }
+     .nameNav{
+         padding-right: 0%;
+     }
+    body{
+      padding: 0;
+      margin: 0;  
+      background-size: auto;
+    }
+
+    .header{
+        margin-top: 10%;
+    }
+    .navbar{
+        text-align: center;
+    }
+    h1{
+        opacity: 0.9;
+    }
+    .footer-padding{
+        padding-bottom: 100%;
+    }
+    .header{
+        padding: 2%;
+      background-color: wheat;
+      opacity: 0.7;
+      border-radius: 2%;
+    }
+    .skillP{
+        padding: 2%;
+      background-color: wheat;
+      opacity: 0.7;
+      border-radius: 2%;
+    }
+  }
