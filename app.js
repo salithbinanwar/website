@@ -4,7 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 
-const homeStartingContent = "Im from bangladesh.Currently I live in Tangail. Im a student    Im from bangladesh.Currently I live in Tangail. Im a studentIm from bangladesh.Currently I live in Tangail. Im a studentIm from bangladesh.Currently I live in Tangail. Im a studentIm from bangladesh.Currently I live in Tangail. Im a studentIm from bangladesh.Currently I live in Tangail. Im a student";
+const homeStartingContent = "Im from bangladesh";
 const aboutContent = "";
 const contactContent = "facebook page";
 

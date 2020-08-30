@@ -2,12 +2,14 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
-body{
-    background-image:url("../images/foggy-1149180_1280.jpg");
+
+body {
+    background-image: url("../images/foggy-1149180_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -19,20 +21,21 @@ body{
     margin-top: 10px;
     background-color: #868581;
 }
-.navbar-nav  li a:hover {
+
+.navbar-nav li a:hover {
     background-color: #ffffff !important;
     color: #000000 !important;
 }
 
 .footer-padding {
-	padding-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .footer {
-	position: absolute;
-	text-align: center;
-	bottom: 0;
-	width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
     height: 60px;
     background-color: #FFFFFF;
     padding-top: 5px;
@@ -40,80 +43,94 @@ body{
 }
 
 .footer p {
-	/* margin-top: 25px; */
-	/* font-size: 12px; */
-  color: #000000;
-  font-family: cursive;
+    /* margin-top: 25px; */
+    /* font-size: 12px; */
+    color: #000000;
+    font-family: cursive;
 
 }
+
 img {
     border-radius: 50%;
 }
-.myPic{
+
+.myPic {
     margin-top: 20px;
 
 }
-#navv{
+
+#navv {
     padding-right: 60%;
     padding-left: 40px;
 }
-#facebook{
+
+#facebook {
     color: #1876F2;
-    
+
 }
-#insta{
+
+#insta {
     color: white;
-    background: linear-gradient(#F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4 );
+    background: linear-gradient(#F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
     padding-left: 2px;
     padding-right: 2px;
     border-radius: 28%;
 }
-.nameNav{
+
+.nameNav {
     padding-right: 60%;
 }
+
 @media only screen and (max-width: 1600px) {
-a:link{
-    color:white;
-}
-    .hide{
-        padding-bottom: 200px;
-    }
-      .mobileFoot{
-
-          position: absolute;
-          margin-bottom: 0%;
-      }
-     .nameNav{
-         padding-right: 0%;
-     }
-    body{
-      padding: 0;
-      margin: 0;  
-      background-size: auto;
+    a:link {
+        color: white;
     }
 
-    .header{
+    .mobileFoot {
+
+        /* position: absolute;
+          margin-bottom: 0%; */
+    }
+
+    .nameNav {
+        padding-right: 0%;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        background-size: auto;
+
+    }
+    
+
+    .header {
         margin-top: 10%;
     }
-    .navbar{
+
+    .navbar {
         text-align: center;
     }
-    h1{
+
+    h1 {
         opacity: 0.9;
     }
-    .footer-padding{
+
+    .footer-padding {
         padding-bottom: 100%;
     }
-    .header{
+
+    .header {
         padding: 2%;
-      background-color: wheat;
-      opacity: 0.7;
-      border-radius: 2%;
+        background-color: wheat;
+        opacity: 0.7;
+        border-radius: 2%;
     }
-    .skillP{
+
+    .skillP {
         padding: 2%;
-      background-color: wheat;
-      opacity: 0.7;
-      border-radius: 2%;
+        background-color: wheat;
+        opacity: 0.7;
+        border-radius: 2%;
     }
-  }
+}
